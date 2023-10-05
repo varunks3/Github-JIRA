@@ -1,10 +1,7 @@
 name: 'Terraform'
 
 on:
-  repository_dispatch:
-  
-permissions:
-  contents: read
+  workflow_dispatch:
 
 jobs:
   terraform:
